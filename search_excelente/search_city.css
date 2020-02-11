@@ -1,0 +1,19 @@
+
+  div < #result_cities{
+    position: relative
+  }
+  #result_cities {
+      z-index: 2000;
+      position: absolute;
+      display: inline-block;
+      width: 100%;
+  }
+  ul#result_cities > li, #close_result_cities {
+    max-width: 80%;
+    width: auto;
+    cursor: pointer;
+    background: #e3e8e7;
+  }
+  ul#result_cities > li:hover, #close_result_cities:hover {
+    background: #c4ccca;
+  }
